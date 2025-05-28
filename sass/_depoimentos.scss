@@ -1,0 +1,19 @@
+@use 'mixins';
+@use 'variaveis';
+
+/* Depoimentos */
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.testimonial {
+  margin: 5%;
+
+  &__photo {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* Variáveis */
+/* Blocos */
+.header {
+  background-color: antiquewhite;
+}
+.header__logo-container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+}
+.header__navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 5%;
+}
+.header__logo {
+  width: 5vw;
+  height: 5vh;
+  object-fit: cover;
+  padding-top: 15%;
+  padding-left: 15%;
+}
+.header__nav-link {
+  font-family: arial;
+  text-decoration: none;
+  color: antiquewhite;
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+.home__landscape {
+  width: 50vw;
+  height: 20%;
+}
+.home__banner {
+  margin-left: 5%;
+}
+
+.estimonial-card__photo {
+  width: 5vw;
+  height: 5vh;
+  object-fit: cover;
+  padding-top: 15%;
+  padding-left: 15%;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 5%;
+}
+
+/* Sobre nós */
+.mission {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.mission__icon {
+  width: 10vw;
+  height: 20vh;
+  object-fit: cover;
+}
+.mission__compass {
+  width: 30vw;
+  height: 30vh;
+  object-fit: cover;
+}
+.mission__content {
+  padding: 0 5%;
+}
+
+/* Serviços */
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.product {
+  margin-bottom: 5%;
+  border: 0.5px solid antiquewhite;
+  border-radius: 5%;
+  margin: 5%;
+  padding: 3%;
+}
+
+/* Depoimentos */
+.testimonials {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.testimonial {
+  margin: 5%;
+}
+.testimonial__photo {
+  width: 10vw;
+  height: 20vh;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=stylesheet.css.map */

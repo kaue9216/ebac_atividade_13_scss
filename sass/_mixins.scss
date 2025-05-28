@@ -1,0 +1,10 @@
+
+@mixin imagem{
+  width: 10vw;
+  height: 20vh;
+  object-fit: cover;
+}
+
+@mixin colunas_padrao{
+  grid-template-columns: 1fr 1fr 1fr;
+}

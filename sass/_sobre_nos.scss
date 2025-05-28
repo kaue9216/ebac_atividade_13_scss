@@ -1,0 +1,24 @@
+@use 'mixins';
+@use 'variaveis';
+
+/* Sobre nós */
+.mission {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  &__icon {
+    width: 10vw;
+    height: 20vh;
+    object-fit: cover;
+  }
+
+  &__compass {
+    width: 30vw;
+    height: 30vh;
+    object-fit: cover;
+  }
+
+  &__content {
+    padding: 0 5%;
+  }
+}

@@ -1,0 +1,17 @@
+@use 'mixins';
+@use 'variaveis';
+
+/* Elementos comuns */
+.title {
+  font-family: $font-primary;
+  color: $color-primary;
+}
+
+.text {
+  font-family: $font-primary;
+  color: $color-primary;
+
+  &--bold {
+    font-weight: bold;
+  }
+}

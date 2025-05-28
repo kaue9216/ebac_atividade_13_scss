@@ -1,0 +1,17 @@
+@use 'mixins';
+@use 'variaveis';
+
+/* Serviços */
+.products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.product {
+  margin-bottom: 5%;
+  border: 0.5px solid antiquewhite;
+  border-radius: 5%;
+  margin: 5%;
+  padding: 3%;
+}

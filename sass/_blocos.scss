@@ -1,0 +1,61 @@
+@use 'mixins';
+@use 'variaveis';
+
+/* Blocos */
+.header {
+  background-color: antiquewhite;
+
+  &__logo-container {
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+  }
+
+  &__navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+  }
+
+  &__logo {
+    width: 5vw;
+    height: 5vh;
+    object-fit: cover;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
+
+  &__nav-link {
+    font-family: arial;
+    text-decoration: none;
+    color: antiquewhite;
+  }
+}
+
+.home {
+  display: flex;
+  justify-content: space-between;
+
+  &__landscape {
+    width: 50vw;
+    height: 20%;
+  }
+
+  &__banner {
+    margin-left: 5%;
+  }
+}
+
+.estimonial-card {
+  &__photo {
+    width: 5vw;
+    height: 5vh;
+    object-fit: cover;
+    padding-top: 15%;
+    padding-left: 15%;
+  }
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 5%;
+}
